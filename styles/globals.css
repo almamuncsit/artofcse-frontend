@@ -6,24 +6,16 @@ html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
 }
-.blog_details {
+
+.blog1 {
+  background-color: #e0dedecf;
+}
+.blog-post {
+  background: #ffffff;
+  box-shadow: 1px 1px 7px #a7a2a2;
+  min-height: 270px;
   border-bottom: 4px solid #4ea75c;
+  border-radius: 6px;
 }
-
-#blog {
-  background-color: #e0dedecf;
-}
-.card-img img {
-  width: 100px;
-  height: 100px;
-}
-.courses_curriculum {
-  background-color: #e0dedecf;
-}
-
-.couresTitle {
-  margin-left: 270px;
-}
-.sidebar {
-  background-color: #e0dedecf;
+.footer {
 }

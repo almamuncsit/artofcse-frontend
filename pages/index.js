@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import blogImage from "../public/banner.png";
 
 export default function Home() {
   return (
@@ -10,27 +13,123 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* Start Code for Intro Section */}
       <section id="intro">
-        <div class="grid place-items-center pt-10 bg-gradient-to-r from-cyan-500 to-green-200">
+        <div className="grid place-items-center pt-10 bg-gradient-to-r from-cyan-500 to-green-200">
           <div>
-            <h2 class="text-white text-xl font-light tracking-widest font-serif">
+            <h2 className="text-white text-xl sm:2xl font-light tracking-widest font-serif">
               SPIRIT OF INNOVATION
             </h2>
           </div>
 
-          <div class="topbar_text_slider pt-8">
-            <ul class="bxslider text">
-              <li class="text-5xl text-white font-bold">
-                We Love <span class="text-black">Creativity</span>
+          <div className="topbar_text_slider pt-8">
+            <ul className="bxslider text">
+              <li className="text-2xl sm:text-5xl text-white font-bold">
+                We Love <span className="text-black">Creativity</span>
               </li>
             </ul>
           </div>
 
-          <div class="pt-12 pb-5">
-            <p class="text-gray-100">Start learning with Art of CSE</p>
+          <div className="pt-12 pb-5">
+            <p className="text-gray-100">Start learning with Art of CSE</p>
           </div>
         </div>
       </section>
+      {/* End Code for Intro Section */}
+
+      {/* Start Code for Blog Section */}
+      <section className="blog1 pb-10">
+        <div className="container pt-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2">
+            <div className="blog-post px-2">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+
+            <div className="blog-post px-2">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+            <div className="blog-post px-2">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+            <div className="blog-post px-2 ">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+            <div className="blog-post px-2 ">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+            <div className="blog-post px-2 ">
+              <Link href="#">
+                <Image src={blogImage} alt="img" className="mt-1" />
+              </Link>
+              <Link href="#">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                  PHP OOP, Design Patterns, Principles
+                </h4>
+              </Link>
+              <p className="text-xs sm:text-xs font-light mt-2">
+                এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS, DRY
+                Principles নিয়ে আলোচনা করব
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End Code for Blog Section */}
     </>
   );
 }
