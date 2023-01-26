@@ -10,7 +10,7 @@ function Navbar() {
         <div className="px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <Link href="#">
+              <Link href="/">
                 <span className="cursor-pointer">
                   <Image src={NavbarLogo} alt="logo" width={100} height={100} />
                 </span>
@@ -40,7 +40,7 @@ function Navbar() {
                   <Link href="/">Home</Link>
                 </li>
                 <li className="text-white hover:underline">
-                  <Link href="/">Courses</Link>
+                  <Link href="/courses/course">Courses</Link>
                 </li>
                 <li className="text-white hover:underline">
                   <Link href="/">Problem Solving</Link>
