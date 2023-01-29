@@ -7,15 +7,36 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
-.blog1 {
+.courses {
   background-color: #e0dedecf;
 }
-.blog-post {
+.CourseCurriculum {
+  background-color: #e0dedecf;
+}
+.homePage {
+  background-color: #e0dedecf;
+}
+.blog_for_homePage {
   background: #ffffff;
   box-shadow: 1px 1px 7px #a7a2a2;
   min-height: 270px;
   border-bottom: 4px solid #4ea75c;
   border-radius: 6px;
 }
-.footer {
+.courses_blog {
+  background: #ffffff;
+  box-shadow: 1px 1px 7px #a7a2a2;
+  min-height: 270px;
+  border-bottom: 4px solid #4ea75c;
+  border-radius: 6px;
+}
+.ProblemSolving {
+  background-color: #e0dedecf;
+}
+.CodingPage {
+  background-color: #e0dedecf;
+}
+.card-img img {
+  width: 80px;
+  height: 80px;
 }

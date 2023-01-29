@@ -37,16 +37,16 @@ export default function Home() {
       </section>
       {/* End Code for Intro Section */}
 
-      {/* Start Code for Blog Section */}
-      <section className="blog1 pb-10">
+      {/* Start Code for Home Page Blog Section */}
+      <section className="homePage pb-10">
         <div className="container pt-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2">
-            <div className="blog-post px-2">
+            <div className="blog_for_homePage px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
-              <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+              <Link href="./courses/courseCurriculum">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -56,12 +56,12 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="blog-post px-2">
+            <div className="blog_for_homePage px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -70,12 +70,12 @@ export default function Home() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2">
+            <div className="blog_for_homePage px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -84,12 +84,12 @@ export default function Home() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="blog_for_homePage px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -98,12 +98,12 @@ export default function Home() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="blog_for_homePage px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -112,12 +112,12 @@ export default function Home() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="blog_for_homePage px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* End Code for Blog Section */}
+      {/* End Code for Home Page Blog Section */}
     </>
   );
 }

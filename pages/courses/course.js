@@ -9,9 +9,7 @@ export default function Course() {
       <section id="intro">
         <div className="grid place-items-center pt-10 bg-gradient-to-r from-cyan-500 to-green-200">
           <div>
-            <h2 className="text-white text-3xl sm:2xl font-light tracking-widest font-bold">
-              Latest Courses
-            </h2>
+            <h2 className="text-white text-3xl sm:2xl tracking-widest font-bold">Latest Courses</h2>
           </div>
           <div className="pt-2 pb-5">
             <p className="text-gray-100 text-sm sm:text-sm">
@@ -22,16 +20,16 @@ export default function Course() {
       </section>
       {/* End Code for Intro Section */}
 
-      {/* Start Code for Blog Section */}
-      <section className="blog1 pb-10">
+      {/* Start Code for Courses Section */}
+      <section className="courses pb-10">
         <div className="container pt-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2">
-            <div className="blog-post px-2">
+            <div className="courses_blog px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -41,12 +39,12 @@ export default function Course() {
               </p>
             </div>
 
-            <div className="blog-post px-2">
+            <div className="courses_blog px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -55,12 +53,12 @@ export default function Course() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2">
+            <div className="courses_blog px-2">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -69,12 +67,12 @@ export default function Course() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="courses_blog px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -83,12 +81,12 @@ export default function Course() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="courses_blog px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -97,12 +95,12 @@ export default function Course() {
                 Principles নিয়ে আলোচনা করব
               </p>
             </div>
-            <div className="blog-post px-2 ">
+            <div className="courses_blog px-2 ">
               <Link href="#">
                 <Image src={blogImage} alt="img" className="mt-1" />
               </Link>
               <Link href="#">
-                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1">
+                <h4 className="text-blue-500 text-sm sm:text-xs font-semibold mt-1 hover:underline">
                   PHP OOP, Design Patterns, Principles
                 </h4>
               </Link>
@@ -114,7 +112,7 @@ export default function Course() {
           </div>
         </div>
       </section>
-      {/* End Code for Blog Section */}
+      {/* End Code for Courses Section */}
     </>
   );
 }
